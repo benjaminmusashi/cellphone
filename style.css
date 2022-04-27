@@ -4,8 +4,8 @@ body {
 }
 
 .main {
-    background-color:rgb(214, 214, 214);
-    border-bottom: 5px solid #505050;
+    background-color:rgb(0, 0, 0);
+    border-bottom: 8px solid yellow;
     display: flex;
     align-items: stretch;
 }
@@ -14,7 +14,7 @@ body {
     padding-bottom: 30px;
     padding: 10px;
     margin-bottom: 20px;
-    flex: 1;
+    flex: 3;
 }
 
 .telephone-icon {
@@ -24,12 +24,13 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #fff;
     font-size: 20px;
 }
 
-.links:hover {
-    background-color: #f0f0f0;
+a:hover {
+    color: #fffb00;
+    font-weight: bold;
 }
 
 hr {
@@ -75,8 +76,8 @@ h1 {
 
 .logo {
     flex: 1;
-    padding-top: 10px;
-    padding-left: 5px;
+    padding-top: 20px;
+    padding-left: 15px;
 }
 
 .deadlinks {
@@ -84,11 +85,11 @@ h1 {
     padding-bottom: 30px;
     padding: 10px;
     margin-bottom: 20px;
-    flex: 1;
+    flex: 3;
 }
 
 .active {
-    color: darkblue;
+    color: #a0a0a0;
     font-weight: bold;
 }
 
@@ -114,4 +115,64 @@ h1 {
 
 .FAQ {
     margin-bottom: 0;
+}
+
+.khakibg {
+    background-color:khaki;
+}
+
+.black {
+    color: black;
+}
+
+.navybluebg {
+    background-color: navy;
+}
+
+.aquamarinebg {
+    background-color:aquamarine;
+}
+
+li {
+   font-size: 20px; 
+}
+
+.bluebg1 {
+    background-color:#072F5F;
+}
+
+.bluebg2 {
+    background-color:#1261A0;
+}
+
+.bluebg3 {
+    background-color:#3895D3;
+}
+
+.bluebg4 {
+    background-color:#58CCED;
+}
+
+.greenbg1 {
+    background-color:#A4DE02;
+}
+
+.greenbg2 {
+    background-color:#76BA1B;
+}
+
+.greenbg3 {
+    background-color:#4C9A2A;
+}
+
+.purplebg1 {
+    background-color:#8C319C;
+}
+
+.purplebg2 {
+    background-color:#D56DFB;
+}
+
+.fa-solid, .fas {
+    color: #fff;
 }
